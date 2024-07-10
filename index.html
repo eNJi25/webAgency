@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style_flex.css">
+    <title>BootCamp WebAgency</title>
+</head>
+
+<body>
+    <!--START_Header avec logo à gauche et barre de navigation à droite-->
+    <header>
+        <!--Barre de navigation à droite du header-->
+        <nav class="nav_header">
+            <!--Logo WebAgency à gauche du header-->
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="logo de web agency">
+            </div>
+            <!--Menu à droite du header-->
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--END_Header-->
+
+    <!--START_Main avec quatre grande section ( Carroussel, Nos services, Nos projets et Plan/Formulaire)-->
+    <main>
+        <!--START_Section Carroussel-->
+        <section class="carroussel" id="accueil">
+            <div>
+                <img class="left_arrow" src="assets/images/icons/left_arrow.png" alt="Fleche gauche">
+                <img class="right_arrow" src="assets/images/icons/right_arrow.png" alt="fleche droite">
+                <img class="carroussel_fond" src="assets/images/bg1.jpg" alt="fille qui joue avec de la peinture">
+            </div>
+            <article class="carroussel_texte">
+                <h2><span>WEBAGENCY</span> : L'AGENCE DE TOUS<br>VOS PROJETS</h2>
+                <p>Vous avez un projet web? La webagency vous aide à le réaliser</p>
+                <button class="carroussel_button">Plus d'info</button>
+            </article>
+        </section>
+        <!--END_Section Carroussel-->
+
+        <!--START_Section Nos services-->
+        <section class="services" id="services">
+            <article class="first_services">
+                <h2>NOS SERVICES</h2>
+                <div class="ligne">
+                    <hr>
+                    <img src="assets/images/icons/circle.png" alt="">
+                </div>
+                <p>De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
+                    Nos experts vous aide à<br> optimiser l'éxperience utilisateur et tirer le meilleur potentiel
+                    de chaque support, du web au mobile.
+                </p>
+            </article>
+            <article class="main_services">
+                <div class="img_services">
+                    <img src="assets/images/main-feature.png" alt="image d'écran d'ordinateur">
+                </div>
+                <div class="side_services">
+                    <article class="ux_design">
+                        <div class="icon_service">
+                            <div class="animation">
+                                <img src="assets/images/icons/circle.png" alt="">
+                            </div>
+                            <img class="principal" src="assets/images/icons/arrow_chart.png"
+                                alt="Graphique avec fleche">
+                        </div>
+                        <div class="text_services">
+                            <h3>UX Design</h3>
+                            <p>Une équipe passionnée qui place l'utilisateur final au centre de sa<br> démarche
+                                pour une technologie plus humaine.</p>
+                        </div>
+                    </article>
+                    <article class="ui_design">
+                        <div class="icon_service">
+                            <div class="animation">
+                                <img src="assets/images/icons/circle.png" alt="">
+                            </div>
+                            <img class="principal" src="assets/images/icons/cube.png" alt="">
+                        </div>
+                        <div class="text_services">
+                            <h3>UI Design</h3>
+                            <p>Une interface optimisée qui permet à votre site web de rester à la page<br> au gré
+                                des évolutions techniques et des nouveaux usages.</p>
+                        </div>
+                    </article>
+                    <article class="seo">
+                        <div class="icon_service">
+                            <div class="animation">
+                                <img src="assets/images/icons/circle.png" alt="">
+                            </div>
+                            <img class="principal" src="assets/images/icons/pie_chart.png" alt="">
+                        </div>
+                        <div class="text_services">
+                            <h3>SEO</h3>
+                            <p>Nos experts en référencement vous permettent d'améliorer le<br> positionnement de
+                                votre site afin d'augmenter votre conversion.</p>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+        <!--END_Section Nos services-->
+
+        <!--START_Section Nos projets-->
+        <section class="projets" id="portfolio">
+            <article class="first_projets">
+                <h2>NOS PROJETS</h2>
+                <div class="ligne">
+                    <hr>
+                    <img src="assets/images/icons/circle.png" alt="">
+                </div>
+                <p>Beaucoup d'entreprises et particuliers nous ont fair confiance pour leurs projets !
+                    Découvrez une selection de nos<br>réalisations tendances, modernes et innovantes.
+                </p>
+                <nav class="nav_projets">
+                    <ul>
+                        <li><a href="">Tous</a></li>
+                        <li><a href="">Créations</a></li>
+                        <li><a href="">Corporate</a></li>
+                        <li><a href="">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="portfolio">
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/01.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Lunette/Gros nez</h4>
+                            <br>
+                            <p>Projet très créatif</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/02.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Lapin rose</h4>
+                            <br>
+                            <p>Pourquoi pas</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/03.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Pompadour</h4>
+                            <br>
+                            <p>Whouhou</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/04.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Feuille blanche</h4>
+                            <br>
+                            <p>Repartir de zéro</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/05.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>2 sacs</h4>
+                            <br>
+                            <p>Pour acheter 2 fois plus</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/06.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Ville</h4>
+                            <br>
+                            <p>Beaucoup de brouillard</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/07.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Burrito</h4>
+                            <br>
+                            <p>Aie</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="img_portfolio">
+                    <img src="assets/images/portfolio/08.jpg" alt="">
+                    <figure class="hover">
+                        <figcaption>
+                            <h4>Kit beauté</h4>
+                            <br>
+                            <p>Sublimez vous</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+        </section>
+        <!--END_Section Nos projets-->
+
+        <!--START_Section Plan/Formaulaire-->
+        <section class="plan" id="contact">
+            <iframe class="fond_plan"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221425031466!2d2.3472453116379928!3d48.8730552995554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris%2C%20France!5e0!3m2!1sfr!2sma!4v1720007406612!5m2!1sfr!2sma"
+                style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="opacite_plan"></div>
+            <div class="formulaire">
+                <div class="opacite_form"></div>
+                <div class="item-form">
+                    <h4>Contact info</h4>
+                    <h5>WebAgency SAS</h5>
+                    <address>25 rue d'Hauteville 75010 PARIS</address>
+                    <address>Tel : +33102030405</address>
+                    <form class="input_formulaire " action="get">
+                        <input type="text" placeholder="Nom">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Sujet">
+                        <textarea placeholder="Votre message..." rows="4"></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--END_Section Plan/Formulaire-->
+    </main>
+    <!--END_Main-->
+
+    <!--START_Footer avec Mentions légales-->
+    <footer>
+        <div><img class="img_footer" src="assets/images/logo.png" alt="Logo Web Agency"></div>
+        <section class="container_footer">
+            <h5>Mentions légales</h5>
+            <p>@ 2024 WEBAGENCY ALL RIGHTS RESERVED.</p>
+        </section>
+    </footer>
+    <!--END_Footer-->
+</body>
+
+</html>
